@@ -4,8 +4,8 @@
 	"theme": "Spacegray.sublime-theme",
 	"spacegray_sidebar_font_xlarge": true,
 	"spacegray_tabs_auto_width": true,
-	"spacegray_tabs_font_xlarge": true,
-	"spacegray_tabs_xlarge": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_large": true,
 	"bold_folder_labels": false,
 
 
