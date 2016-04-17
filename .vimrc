@@ -1,6 +1,8 @@
 set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
 
+set matchpairs += <:>,<<:>>,":",=:;	"% also match these along with brackets
+
 "=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
 "Only apply to .txt files...
 augroup HelpInTabs
