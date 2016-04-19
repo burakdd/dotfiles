@@ -1,8 +1,15 @@
 set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
-
-set mps+==:;	"% also match these along with brackets
+set mps+==:;		"% also match these along with brackets
 set nrformats=  "no need to other number formats other than decimal
+
+" Make it easy to navigate errors (and vimgreps)...
+
+nmap <silent> <RIGHT>         :cnext<CR>
+nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>
+nmap <silent> <LEFT>          :cprev<CR>
+nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
+
 
 "=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
 "Only apply to .txt files...
