@@ -1,7 +1,11 @@
 set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
 set mps+==:;		"% also match these along with brackets
-set nrformats=  "no need to other number formats other than decimal
+set nrformats=  	"no need to other number formats other than decimal
+
+" change default delete behaviour I really want to delete
+set backspace=indent,eol,start
+
 
 " Make it easy to navigate errors (and vimgreps)...
 
