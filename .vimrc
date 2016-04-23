@@ -4,6 +4,7 @@ set mps+==:;		"% also match these along with brackets
 set nrformats=  	"no need to other number formats other than decimal
 
 "====[ Set up smarter search behaviour ]=======================
+
 set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
@@ -36,6 +37,7 @@ nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
 
 
 "=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
+
 "Only apply to .txt files...
 augroup HelpInTabs
     autocmd!
