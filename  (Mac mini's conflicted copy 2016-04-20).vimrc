@@ -6,8 +6,6 @@ set nrformats=  	"no need to other number formats other than decimal
 " change default delete behaviour I really want to delete
 set backspace=indent,eol,start
 
-" regex require escape of special chars with \v no need that make it default
-nnoremap / /\v
 
 " Make it easy to navigate errors (and vimgreps)...
 
