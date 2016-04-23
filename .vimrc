@@ -2,6 +2,8 @@ set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
 set mps+==:;		"% also match these along with brackets
 set nrformats=  	"no need to other number formats other than decimal
+set ignorecse		"no longer care about case of the letters for search
+set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 
 " change default delete behaviour I really want to delete
 set backspace=indent,eol,start
