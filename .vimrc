@@ -5,10 +5,16 @@ set nrformats=  	"no need to other number formats other than decimal
 
 "====[ Set up smarter search behaviour ]=======================
 
-set incsearch		"lookahead as search pattern is specified
 set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
+set incsearch		"lookahead as search pattern is specified
+
+" lets disable regular movement keys
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
 
 
 " change default delete behaviour I really want to delete
