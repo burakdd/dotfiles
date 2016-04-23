@@ -4,7 +4,6 @@ set mps+==:;		"% also match these along with brackets
 set nrformats=  	"no need to other number formats other than decimal
 
 "====[ Set up smarter search behaviour ]=======================
-
 set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
@@ -14,11 +13,14 @@ set incsearch		"lookahead as search pattern is specified
 nmap <silent> <BS> :nohlsearch<CR>
 
 " lets disable regular movement keys
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
-
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+inoremap <up> <nop>
 
 " change default delete behaviour I really want to delete
 set backspace=indent,eol,start
@@ -27,7 +29,6 @@ set backspace=indent,eol,start
 nnoremap / /\v
 
 " Make it easy to navigate errors (and vimgreps)...
-
 nmap <silent> <RIGHT>         :cnext<CR>
 nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>
 nmap <silent> <LEFT>          :cprev<CR>
