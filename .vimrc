@@ -18,6 +18,7 @@ noremap <up> <nop>
 noremap <down> <nop>
 noremap <left> <nop>
 noremap <right> <nop>
+
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
@@ -26,17 +27,17 @@ inoremap <up> <nop>
 " change default delete behaviour I really want to delete
 set backspace=indent,eol,start
 
-" regex require escape of special chars with \v no need that make it default
+" regex require escape of special chars with \v need that to make it default
 nnoremap / /\v
 
 " Make it easy to navigate errors (and vimgreps)...
-nmap <silent> <RIGHT>         :cnext<CR>
-nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>
-nmap <silent> <LEFT>          :cprev<CR>
-nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
+nmap <silent> <RIGHT>         :cnext<CR> 	"move next result with right
+nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>	"move next page with right+right
+nmap <silent> <LEFT>          :cprev<CR>	"move prev result with left
+nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>	"move prev page with left+left
 
 
-"=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
+"=====[ Show help files in a new tab ]==============
 
 "Only apply to .txt files...
 augroup HelpInTabs
