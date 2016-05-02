@@ -1,0 +1,25 @@
+[user]
+	name = Burak Dede
+	email = burak@burakdede.com
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+	excludesfiles = /Users/burakdede/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	st = status
+	lol = log --all --pretty=oneline --abbrev-commit --graph --decorate
+	lols = log --all --pretty=oneline --abbrev-commit --graph --decorate --stat
+[http]
+	postBuffer = 524288000
