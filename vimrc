@@ -9,6 +9,8 @@ set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
 set incsearch		"lookahead as search pattern is specified
+set 
+
 
 "do not let highlight search stick around after your are done with it
 nmap <silent> <BS> :nohlsearch<CR>
@@ -41,6 +43,21 @@ nmap <silent> <RIGHT>         :cnext<CR>
 nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>
 nmap <silent> <LEFT>          :cprev<CR>
 nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
+
+
+"====[ Use persistent undo ]=================
+
+if has('persistent_undo')
+    " Save all undo files in a single location (less messy, more risky)...
+    set undodir=$HOME/.VIM_UNDO_FILES
+
+    " Save a lot of back-history...
+    set undolevels=5000
+
+    " Actually switch on persistent undo
+    set undofile
+
+endif
 
 
 "=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
