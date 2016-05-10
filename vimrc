@@ -9,7 +9,6 @@ set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
 set incsearch		"lookahead as search pattern is specified
-set 
 
 
 "do not let highlight search stick around after your are done with it
