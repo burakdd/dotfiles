@@ -14,6 +14,9 @@ set wildmode=list:longest,full      "Show list of completions
                                     "  and complete as much as possible,
                                     "  then iterate full completions
 
+set number		"show absolute number for current line
+set relativenumber	"show relative numbers to current line	
+
 "do not let highlight search stick around after your are done with it
 nmap <silent> <BS> :nohlsearch<CR>
 
