@@ -9,13 +9,22 @@ set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
 set incsearch		"lookahead as search pattern is specified
+set cursorline		"highlight the entire line the cursor is on
+set title		"enable showing title
+
+
+set visualbell		"no annoying beep sound
+set noerrorbells	"no annoying beep sound
+
+set nobackup		"no backup needed
+set noswapfile		"no swp or something else
+
 
 set wildmode=list:longest,full      "Show list of completions
-                                    "  and complete as much as possible,
-                                    "  then iterate full completions
+                                    "and complete as much as possible,
+                                    "then iterate full completions
 
 set number		"show absolute number for current line
-"set relativenumber	"show relative numbers to current line	
 
 "do not let highlight search stick around after your are done with it
 nmap <silent> <BS> :nohlsearch<CR>
