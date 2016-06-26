@@ -60,6 +60,7 @@ nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
 
 
 "====[ Use persistent undo ]=================
+"** vim will not create undo directory if it does not exist
 
 if has('persistent_undo')
     " Save all undo files in a single location (less messy, more risky)...
