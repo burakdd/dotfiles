@@ -12,6 +12,7 @@
 	editor = vim
 	excludesfiles = /Users/burakdede/.gitignore_global
 [alias]
+	s = status -s
 	st = status
 	lol = log --all --pretty=oneline --abbrev-commit --graph --decorate
 	lols = log --all --pretty=oneline --abbrev-commit --graph --decorate --stat
