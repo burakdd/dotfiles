@@ -2,6 +2,7 @@ set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
 set mps+==:;		"% also match these along with brackets
 set nrformats=  	"no need to other number formats other than decimal
+syntax on		"set syntax highlight on
 
 "====[ Set up smarter search behaviour ]=======================
 
@@ -60,7 +61,6 @@ nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
 
 
 "====[ Use persistent undo ]=================
-"** vim will not create undo directory if it does not exist
 
 if has('persistent_undo')
     " Save all undo files in a single location (less messy, more risky)...
