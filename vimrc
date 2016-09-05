@@ -38,6 +38,12 @@ set wildmode=list:longest,full      "Show list of completions
                                     "and complete as much as possible,
                                     "then iterate full completions
 
+" Quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
 set number		"show absolute number for current line
 
 "do not let highlight search stick around after your are done with it
