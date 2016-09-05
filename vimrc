@@ -1,3 +1,7 @@
+
+"====[ Work out what kind of file this is ]========
+filetype plugin indent on
+
 set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
 set nrformats=  	"no need to other number formats other than decimal
@@ -9,6 +13,8 @@ set smartcase		"if all lower go search both case or if upper go search upper we 
 set hlsearch		"highlighting would be good for searches
 set incsearch		"lookahead as search pattern is specified
 set cursorline		"highlight the entire line the cursor is on
+
+
 set title		"enable showing title
 
 
@@ -24,7 +30,6 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
-
 
 set wildmode=list:longest,full      "Show list of completions
                                     "and complete as much as possible,
