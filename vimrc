@@ -4,7 +4,6 @@ set nrformats=  	"no need to other number formats other than decimal
 syntax on		"set syntax highlight on
 
 "====[ Set up smarter search behaviour ]=======================
-
 set ignorecase		"no longer care about case of the letters for search
 set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
 set hlsearch		"highlighting would be good for searches
@@ -18,6 +17,13 @@ set noerrorbells	"no annoying beep sound
 
 set nobackup		"no backup needed
 set noswapfile		"no swp or something else
+
+
+" Softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
 
 
 set wildmode=list:longest,full      "Show list of completions
