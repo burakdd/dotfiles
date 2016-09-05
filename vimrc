@@ -1,6 +1,5 @@
 set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
 set ruler		"show me where i am in the file and searh percentage
-set mps+==:;		"% also match these along with brackets
 set nrformats=  	"no need to other number formats other than decimal
 syntax on		"set syntax highlight on
 
@@ -41,10 +40,10 @@ inoremap <right> <nop>
 inoremap <up> <nop>
 
 " lets shift movement keys to one right
-" noremap ş l
-" noremap l k
-" noremap k j
-" noremap j h
+"noremap ş l
+"noremap l k
+"noremap k j
+"noremap j h
 
 
 " change default delete behaviour I really want to delete
