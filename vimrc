@@ -25,8 +25,8 @@ set nobackup		"no backup needed
 set noswapfile		"no swp or something else
 
 " Make it obvious where 80 characters is
-"set textwidth=80
-"set colorcolumn=+1
+set textwidth=80
+set colorcolumn=+1
 
 " Softtabs, 2 spaces
 set tabstop=2
