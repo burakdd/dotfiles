@@ -16,7 +16,7 @@ set cursorline		"highlight the entire line the cursor is on
 
 
 set title		"enable showing title
-
+set laststatus=2  "always show status line
 
 set visualbell		"no annoying beep sound
 set noerrorbells	"no annoying beep sound
