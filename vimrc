@@ -7,7 +7,7 @@ set nocompatible
 "show me where i am in the file and search percentage
 set ruler
 "no need to other number formats other than decimal
-set nrformats
+set nrformats=
 "set syntax highligthing on
 syntax on
 
