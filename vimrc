@@ -28,11 +28,11 @@ set noswapfile		"no swp or something else
 set textwidth=80
 set colorcolumn=+1
 
-" Softtabs, 2 spaces
-set tabstop=4
+" Softtabs, 4 spaces
+set softtabstop=4
 set shiftwidth=4
-set shiftround
 set expandtab
+set shiftround
 set smarttab
 
 set wildmode=list:longest,full      "Show list of completions
