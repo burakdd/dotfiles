@@ -29,10 +29,11 @@ set textwidth=80
 set colorcolumn=+1
 
 " Softtabs, 2 spaces
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set shiftround
 set expandtab
+set smarttab
 
 set wildmode=list:longest,full      "Show list of completions
                                     "and complete as much as possible,
