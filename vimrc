@@ -2,27 +2,42 @@
 "====[ Work out what kind of file this is ]========
 filetype plugin indent on
 
-set nocompatible 	"Use Vim settings, rather than Vi settings (much better!).
-set ruler		"show me where i am in the file and searh percentage
-set nrformats=  	"no need to other number formats other than decimal
-syntax on		"set syntax highlight on
+"use vim settings rather than vi settings.
+set nocompatible
+"show me where i am in the file and search percentage
+set ruler
+"no need to other number formats other than decimal
+set nrformats
+"set syntax highligthing on
+syntax on
 
 "====[ Set up smarter search behaviour ]=======================
-set ignorecase		"no longer care about case of the letters for search
-set smartcase		"if all lower go search both case or if upper go search upper we need ignore case for this
-set hlsearch		"highlighting would be good for searches
-set incsearch		"lookahead as search pattern is specified
-set cursorline		"highlight the entire line the cursor is on
+set ignorecase
+"if all lower go search for both case or if upper go search for upper
+set smartcase
+"higlighting would be nice for searches as I type along
+set hlsearch
+"lookahead as search pattern is specified
+set incsearch
+"higlight the entire line the cursor on
+set cursorline
 
 
-set title		"enable showing title
-set laststatus=2  "always show status line
+"enable showing title
+set title
 
-set visualbell		"no annoying beep sound
-set noerrorbells	"no annoying beep sound
+"always show status line
+set laststatus=2
 
-set nobackup		"no backup needed
-set noswapfile		"no swp or something else
+" no annoying beep sound
+set visualbell
+set noerrorbells
+
+"no backup needed
+set nobackup
+
+"no swp or something else
+set noswapfile
 
 " Make it obvious where 80 characters is
 set textwidth=80
@@ -39,17 +54,17 @@ set smarttab
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
-set wildmode=list:longest,full      "Show list of completions
-                                    "and complete as much as possible,
-                                    "then iterate full completions
-                                    
+" Show list of completetions in as much as possible
+set wildmode=list:longest,full
+
 " Quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-set number		"show absolute number for current line
+"show absolute number for current line
+set number
 
 "do not let highlight search stick around after your are done with it
 nmap <silent> <BS> :nohlsearch<CR>
