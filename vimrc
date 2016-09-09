@@ -35,10 +35,14 @@ set expandtab
 set shiftround
 set smarttab
 
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
 set wildmode=list:longest,full      "Show list of completions
                                     "and complete as much as possible,
                                     "then iterate full completions
-
+                                    
 " Quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
