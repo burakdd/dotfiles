@@ -16,6 +16,11 @@ set showcmd
 set autoread
 "show me which mode I am currently in
 set showmode
+"show [{()}]
+set showmatch
+" Use space to jump down a page (like browsers do)...
+nnoremap   <Space> <PageDown>
+vnoremap   <Space> <PageDown>
 
 "====[ Set up smarter search behaviour ]=======================
 set ignorecase
