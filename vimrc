@@ -14,6 +14,8 @@ syntax on
 set showcmd
 "autoread file when change on disk
 set autoread
+"show me which mode I am currently in
+set showmode
 
 "====[ Set up smarter search behaviour ]=======================
 set ignorecase
