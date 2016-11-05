@@ -10,6 +10,8 @@ set ruler
 set nrformats=
 "set syntax highligthing on
 syntax on
+"show me the commands
+set showcmd
 
 "====[ Set up smarter search behaviour ]=======================
 set ignorecase
