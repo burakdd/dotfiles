@@ -12,6 +12,8 @@ set nrformats=
 syntax on
 "show me the commands
 set showcmd
+"autoread file when change on disk
+set autoread
 
 "====[ Set up smarter search behaviour ]=======================
 set ignorecase
