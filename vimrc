@@ -50,6 +50,7 @@ set textwidth=80
 "set colorcolumn=+1
 
 " Softtabs, 4 spaces
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
