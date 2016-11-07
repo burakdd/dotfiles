@@ -91,12 +91,6 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 inoremap <up> <nop>
 
-" lets shift movement keys to one right
-"noremap ş l
-"noremap l k
-"noremap k j
-"noremap j h
-
 
 " change default delete behaviour I really want to delete
 set backspace=indent,eol,start
