@@ -16,6 +16,6 @@
 	st = status
 	lol = log --all --pretty=oneline --abbrev-commit --graph --decorate --no-merges
 	lols = log --all --pretty=oneline --abbrev-commit --graph --decorate --stat --no-merges
-    unstage = reset HEAD --
+        unstage = reset HEAD --
 [credential]
-    helper = osxkeychain
+        helper = osxkeychain
