@@ -1,3 +1,6 @@
+# Installation
+File -> Import Settings -> settings.jar
+
 # Plugins to Install for fresh IDEA installation
 
 * CheckStyle-IDEA for checkstyle code inspections
