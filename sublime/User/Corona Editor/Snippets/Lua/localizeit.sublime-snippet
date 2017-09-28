@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-local ${1:var} = $SELECTION
-]]></content>
-    <scope>source.lua</scope>
-    <description>localize it</description>
-</snippet>

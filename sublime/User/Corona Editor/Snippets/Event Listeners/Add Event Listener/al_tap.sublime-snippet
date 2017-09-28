@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:obj}:addEventListener("tap", ${3:callbackFunction} )
-]]></content>
-    <scope>source.lua</scope>
-    <description>tap</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Runtime:addEventListener("accelerometer", ${3:callbackFunction} )
-]]></content>
-    <scope>source.lua</scope>
-    <description>accelerometer</description>
-</snippet>

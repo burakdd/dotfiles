@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Runtime:addEventListener("orientation", ${3:callbackFunction} )
-]]></content>
-    <scope>source.lua</scope>
-    <description>orientation</description>
-</snippet>

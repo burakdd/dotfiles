@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Runtime:addEventListener("heading", ${3:callbackFunction} )
-]]></content>
-    <scope>source.lua</scope>
-    <description>heading</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Runtime:removeEventListener("enterFrame", ${3:callbackFunction} )
-]]></content>
-    <scope>source.lua</scope>
-    <description>enterFrame</description>
-</snippet>
