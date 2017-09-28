@@ -1,4 +1,4 @@
-# Plugins to Install for fresh IDEA installation
+# Plugins to Install for fresh IDEA installation
 
 * CheckStyle-IDEA for checkstyle code inspections
 * FindBugs-IDEA for static analysis and bug detection
