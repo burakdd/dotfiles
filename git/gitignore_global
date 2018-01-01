@@ -358,7 +358,7 @@ priv/
 
 
 ### Clojure ###
-pom.xml
+!pom.xml
 pom.xml.asc
 *jar
 /lib/
