@@ -3,7 +3,10 @@ File -> Import Settings -> settings.jar
 
 # Plugins to Install for fresh IDEA installation
 
-* CheckStyle-IDEA for checkstyle code inspections
-* FindBugs-IDEA for static analysis and bug detection
-* KeyPrompter great for showing keyboard shortcuts for some mouse actions
-* MarkdownSupport well mostly writing markdown so active support for it
+* CheckStyle-IDEA - code inspections
+* FindBugs-IDEA - static analysis and bug detection
+* KeyPromoter - keyboard shortcuts for some mouse actions
+* Lombok
+* MarkdownSupport - markdown support and views
+* Docker
+* Protobuf
