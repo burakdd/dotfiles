@@ -18,7 +18,7 @@ set autoread
 set showmode
 "show [{()}]
 set showmatch
-" Use space to jump down a page (like browsers do)...
+"use space to jump down a page (like browsers do)...
 nnoremap   <Space> <PageDown>
 vnoremap   <Space> <PageDown>
 
@@ -33,14 +33,13 @@ set incsearch
 "higlight the entire line the cursor on
 set cursorline
 
-
 "enable showing title
 set title
 
 "always show status line
 set laststatus=2
 
-" no annoying beep sound
+"no annoying beep sound
 set visualbell
 set noerrorbells
 
@@ -50,11 +49,11 @@ set nobackup
 "no swp or something else
 set noswapfile
 
-" Make it obvious where 80 characters is
+"make it obvious where 80 characters is
 set textwidth=80
 "set colorcolumn=+1
 
-" Softtabs, 4 spaces
+"softtabs, 4 spaces
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -62,14 +61,13 @@ set expandtab
 set shiftround
 set smarttab
 
-
-" Display extra whitespace
+"display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
-" Show list of completetions in as much as possible
+"show list of completetions in as much as possible
 set wildmode=list:longest,full
 
-" Quicker window movement
+"quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
@@ -81,7 +79,7 @@ set number
 "do not let highlight search stick around after your are done with it
 nmap <silent> <BS> :nohlsearch<CR>
 
-" lets disable regular movement keys
+"lets disable regular movement keys
 noremap <up> <nop>
 noremap <down> <nop>
 noremap <left> <nop>
@@ -91,19 +89,17 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 inoremap <up> <nop>
 
-
-" change default delete behaviour I really want to delete
+"change default delete behaviour I really want to delete
 set backspace=indent,eol,start
 
-" regex require escape of special chars with \v no need that make it default
+"regex require escape of special chars with \v no need that make it default
 nnoremap / /\v
 
-" Make it easy to navigate errors (and vimgreps)...
+"make it easy to navigate errors (and vimgreps)...
 nmap <silent> <RIGHT>         :cnext<CR>
 nmap <silent> <RIGHT><RIGHT>  :cnf<CR><C-G>
 nmap <silent> <LEFT>          :cprev<CR>
 nmap <silent> <LEFT><LEFT>    :cpf<CR><C-G>
-
 
 "====[ Use persistent undo ]=================
 
@@ -119,18 +115,17 @@ if has('persistent_undo')
 
 endif
 
-
 "=====[ Show help files in a new tab, plus add a shortcut for helpg ]==============
 
-"Only apply to .txt files...
+"only apply to .txt files...
 augroup HelpInTabs
     autocmd!
     autocmd BufEnter  *.txt   call HelpInNewTab()
 augroup END
 
-"Only apply to help files...
+"only apply to help files...
 function! HelpInNewTab ()
-    if &buftype == 'help' 
+    if &buftype == 'help'
         "Convert the help window to a tab...
         execute "normal \<C-W>T"
     endif
