@@ -22,8 +22,8 @@ brew bundle
 echo "setting up git configuration and gitignore files.........................."
 echo "removing existing .gitconfig and .gitignore files"
 rm -fv ~/.gitconfig ~/.gitignore_global > /dev/null 2> /dev/null
-ln -s ~/Dropbox/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Dropbox/dotfiles/gitignore_global ~/.gitignore_global
+ln -s ~/Dropbox/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/Dropbox/dotfiles/git/gitignore_global ~/.gitignore_global
 echo "done..."
 
 # spectacle configuration
@@ -31,8 +31,8 @@ echo "done..."
 echo "setting up shortcuts for Spectacle........................................"
 echo "removing existing Spectacle shortcuts configuration file.................."
 rm -fv ~/Library/Application\ Support/Spectacle/Shortcuts.json
-cp -r ~/Dropbox/dotfiles/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r ~/Dropbox/dotfiles/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 echo "done..."
 
 # vim configuration
-ln -s ~/Dropbox/dotfiles/vimrc ~/.vimrc
+ln -s ~/Dropbox/dotfiles/vim/vimrc ~/.vimrc
