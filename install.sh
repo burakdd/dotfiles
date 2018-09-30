@@ -28,6 +28,7 @@ echo "done..."
 
 # spectacle configuration
 # https://github.com/eczarny/spectacle/issues/424
+echo "setting up shortcuts for Spectacle........................................"
 echo "removing existing Spectacle shortcuts configuration file.................."
 rm -fv ~/Library/Application\ Support/Spectacle/Shortcuts.json
 cp -r ~/Dropbox/dotfiles/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
