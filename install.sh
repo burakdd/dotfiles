@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+#
 # need to install developer tools along with xcode
 xcode-select --install
 sudo xcodebuild -license
