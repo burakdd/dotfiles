@@ -23,10 +23,9 @@ brew 'bash'
 brew 'bash-completion'
 brew 'cmake'
 brew 'coreutils'
-brew 'moreutils'
-brew 'findutils' # find, locate, updatedb, xargs
 brew 'curl', link: true
 brew 'ffmpeg'
+brew 'findutils'
 brew 'gcc'
 brew 'gdb'
 brew 'git'
@@ -42,6 +41,7 @@ brew 'jq'
 brew 'mas'
 brew 'maven'
 brew 'mongodb', restart_service: true
+brew 'moreutils'
 brew 'mysql', restart_service: true
 brew 'nmap'
 brew 'openssl'
@@ -108,5 +108,3 @@ cask 'caskroom/versions/java8'
 ########################################################################
 # Mac Apps                                                             #
 ########################################################################
-mas "Amphetamine", id: 937984704
-mas "Xcode", id: 497799835
