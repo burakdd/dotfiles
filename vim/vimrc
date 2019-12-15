@@ -18,6 +18,8 @@ set autoread
 set showmode
 "show [{()}]
 set showmatch
+"set encoding to utf-8 by default as vim defaults to latin-1
+set encoding=utf-8
 "use space to jump down a page (like browsers do)...
 nnoremap   <Space> <PageDown>
 vnoremap   <Space> <PageDown>
@@ -62,7 +64,7 @@ set shiftround
 set smarttab
 
 "display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+" set list listchars=tab:»·,trail:·,nbsp:·
 
 "show list of completetions in as much as possible
 set wildmode=list:longest,full
